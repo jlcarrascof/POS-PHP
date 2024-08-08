@@ -11,5 +11,3 @@ function imprimirMensaje($msg) {
 
 // Llamar a la función
 imprimirMensaje($mensaje);
-
-?>
