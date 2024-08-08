@@ -12,9 +12,4 @@ function imprimirMensaje($msg) {
 // Llamar a la función
 imprimirMensaje($mensaje);
 
-// Error intencional para probar validación
-imprimirMensaje($mensaje
-
-// Llamar a una función inexistente para generar un error
-funcionInexistente();
 ?>
