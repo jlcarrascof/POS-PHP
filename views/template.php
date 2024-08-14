@@ -47,12 +47,6 @@
   <!-- AdminLTE for demo purposes -->
   <script src="views/dist/js/demo.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      $('.sidebar-menu').tree()
-    })
-  </script>
-
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <!-- Site wrapper -->
@@ -667,6 +661,8 @@
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 <!-- ./wrapper -->
+
+<script src="js/template.js"></script>
 
 </body>
 </html>
