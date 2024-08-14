@@ -10,6 +10,8 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
+  <!-- CSS Plugins -->
+
   <!-- Bootstrap 3.3.7 -->
     <link rel="stylesheet" href="views/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
@@ -32,16 +34,19 @@
 
   <!-- jQuery 3 -->
   <script src="views/bower_components/jquery/dist/jquery.min.js"></script>
+
   <!-- Bootstrap 3.3.7 -->
   <script src="views/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- SlimScroll -->
-  <script src="views/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
   <!-- FastClick -->
   <script src="views/bower_components/fastclick/lib/fastclick.js"></script>
+
   <!-- AdminLTE App -->
   <script src="views/dist/js/adminlte.min.js"></script>
+
   <!-- AdminLTE for demo purposes -->
   <script src="views/dist/js/demo.js"></script>
+
   <script>
     $(document).ready(function () {
       $('.sidebar-menu').tree()
