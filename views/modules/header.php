@@ -37,10 +37,25 @@
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="views/img/users/default/anonymous.png" class="user-image">
+                        <span class="hidden-xs">Admin User</span>
                     </a>
                 </li>
             </ul>
         </div>
+
+        <!-- Dropdown toggle -->
+
+        <ul class="dropdown-menu">
+
+            <li class="user-body">
+
+                <div class="pull-right">
+                    <a href="" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+
+            </li>
+
+        </ul>
 
     </nav>
 
