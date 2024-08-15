@@ -52,14 +52,15 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-  <!-- =============================================== -->
+  <?php
 
-  <!-- =============================================== -->
+    include "modules/header.php";
+  ?>
 
-  <!-- ./wrapper -->
 </div>
+<!-- ./wrapper -->
 
-<script src="js/template.js"></script>
+<script src="views/js/template.js"></script>
 
 </body>
 </html>
