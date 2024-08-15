@@ -5,7 +5,7 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">
 
-            <img src="" alt="Logo">
+            <img src="views/img/template/icono-blanco.png" class="img-responsive" style="padding:10px">
 
         </span>
 
