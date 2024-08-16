@@ -41,6 +41,26 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="">
+                            <i class="fa fa-circle-o"></i>
+                            <span>Admin Sales</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-circle-o"></i>
+                            <span>Sales Create</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-circle-o"></i>
+                            <span>Sales Report</span>
+                        </a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </section>
