@@ -62,6 +62,9 @@
     // Content
     include "modules/content.php";
 
+    // Footer
+    include "modules/footer.php";
+
   ?>
 
 </div>
