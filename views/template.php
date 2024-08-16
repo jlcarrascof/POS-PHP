@@ -58,6 +58,10 @@
 
     // Menu
     include "modules/menu.php";
+
+    // Content
+    include "modules/content.php";
+
   ?>
 
 </div>
