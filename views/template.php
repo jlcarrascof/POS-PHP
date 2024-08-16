@@ -53,8 +53,11 @@
 <div class="wrapper">
 
   <?php
-
+    // Header
     include "modules/header.php";
+
+    // Menu
+    include "modules/menu.php";
   ?>
 
 </div>
