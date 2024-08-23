@@ -60,7 +60,14 @@
     include "modules/menu.php";
 
     // Home
-    include "modules/home.php";
+
+    if (isset($_GET["route"])) {
+
+      if ($_GET["route"] == "home") {
+        include "modules/home.php";
+      }
+
+    }
 
     // Footer
     include "modules/footer.php";
