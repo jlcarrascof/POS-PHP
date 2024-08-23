@@ -59,8 +59,8 @@
     // Menu
     include "modules/menu.php";
 
-    // Content
-    include "modules/content.php";
+    // Home
+    include "modules/home.php";
 
     // Footer
     include "modules/footer.php";
