@@ -43,7 +43,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li>
-                        <a href="admin-sales">
+                        <a href="sales">
                             <i class="fa fa-circle-o"></i>
                             <span>Admin Sales</span>
                         </a>

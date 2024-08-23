@@ -63,8 +63,17 @@
 
     if (isset($_GET["route"])) {
 
-      if ($_GET["route"] == "home") {
-        include "modules/home.php";
+      if ($_GET["route"] == "home" ||
+          $_GET["route"] == "products" ||
+          $_GET["route"] == "categories" ||
+          $_GET["route"] == "users" ||
+          $_GET["route"] == "customers" ||
+          $_GET["route"] == "sales" ||
+          $_GET["route"] == "sales-create" ||
+          $_GET["route"] == "reports") {
+
+        include "modules/".$_GET["route"].".php";
+
       }
 
     }
