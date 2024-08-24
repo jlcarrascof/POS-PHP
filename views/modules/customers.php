@@ -2,7 +2,7 @@
     <section class="content-header">
 
       <h1>
-        Admin Customers
+        Customers
       </h1>
 
       <ol class="breadcrumb">

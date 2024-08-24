@@ -2,7 +2,7 @@
     <section class="content-header">
 
       <h1>
-        Admin Categories
+        Categories
       </h1>
 
       <ol class="breadcrumb">

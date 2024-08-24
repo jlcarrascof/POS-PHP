@@ -2,7 +2,7 @@
     <section class="content-header">
 
       <h1>
-        Sales Create
+        Create Sales
       </h1>
 
       <ol class="breadcrumb">
