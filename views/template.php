@@ -52,9 +52,12 @@
 <body class="hold-transition skin-blue sidebar-collapse sidebar-mini">
 
 <!-- Site wrapper -->
-<div class="wrapper">
+
 
   <?php
+
+    echo '<div class="wrapper">';
+
     // Header
     include "modules/header.php";
 
@@ -91,10 +94,9 @@
     // Footer
     include "modules/footer.php";
 
-  ?>
+    echo '</div>';
 
-</div>
-<!-- ./wrapper -->
+  ?>
 
 <script src="views/js/template.js"></script>
 
