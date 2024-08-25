@@ -49,7 +49,7 @@
 </head>
 
 <!-- Document body -->
-<body class="hold-transition skin-blue sidebar-collapse sidebar-mini">
+<body class="hold-transition skin-blue sidebar-collapse sidebar-mini login-page">
 
 <!-- Site wrapper -->
 
