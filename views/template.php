@@ -56,45 +56,53 @@
 
   <?php
 
-    echo '<div class="wrapper">';
+    if (isset($_SESSION["sessionInit"]) && $_SESSION["sessionInit"] == "ok") {
 
-    // Header
-    include "modules/header.php";
+      echo '<div class="wrapper">';
 
-    // Menu
-    include "modules/menu.php";
+      // Header
+      include "modules/header.php";
 
-    // Home
+      // Menu
+      include "modules/menu.php";
 
-    if (isset($_GET["route"])) {
+      // Home
 
-      if ($_GET["route"] == "home" ||
-          $_GET["route"] == "products" ||
-          $_GET["route"] == "categories" ||
-          $_GET["route"] == "users" ||
-          $_GET["route"] == "customers" ||
-          $_GET["route"] == "sales" ||
-          $_GET["route"] == "sales-create" ||
-          $_GET["route"] == "reports") {
+      if (isset($_GET["route"])) {
 
-        include "modules/".$_GET["route"].".php";
+        if ($_GET["route"] == "home" ||
+            $_GET["route"] == "products" ||
+            $_GET["route"] == "categories" ||
+            $_GET["route"] == "users" ||
+            $_GET["route"] == "customers" ||
+            $_GET["route"] == "sales" ||
+            $_GET["route"] == "sales-create" ||
+            $_GET["route"] == "reports") {
+
+          include "modules/".$_GET["route"].".php";
+
+        } else {
+
+          include "modules/404.php";
+
+        }
 
       } else {
 
-        include "modules/404.php";
+        include "modules/home.php";
 
       }
 
+      // Footer
+      include "modules/footer.php";
+
+      echo '</div>';
+
     } else {
 
-      include "modules/home.php";
+      include "modules/login.php";
 
     }
-
-    // Footer
-    include "modules/footer.php";
-
-    echo '</div>';
 
   ?>
 
