@@ -74,6 +74,10 @@
 
         include "modules/".$_GET["route"].".php";
 
+      } else {
+
+        include "modules/404.php";
+
       }
 
     }
