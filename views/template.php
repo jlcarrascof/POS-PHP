@@ -80,6 +80,10 @@
 
       }
 
+    } else {
+
+      include "modules/home.php";
+
     }
 
     // Footer
