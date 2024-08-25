@@ -1,7 +1,10 @@
 <div class="login-box">
+
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+    <img src="views/img/template/logo-blanco-bloque.png" class="img-responsive"
+    style="padding:30px 100px 0px 100px">
   </div>
+
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
