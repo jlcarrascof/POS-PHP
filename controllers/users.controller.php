@@ -12,6 +12,14 @@ class UsersController {
                 preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])) {
 
                  $table = "users";
+
+                 $item = "user";
+                 $value = $_POST["ingUser"];
+
+                 $response = UsersModel::MdlShowUsers($table, $item, $value);
+
+                 var_dump($response);
+
             }
 
         }
