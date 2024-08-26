@@ -16,7 +16,7 @@ class UsersController {
                  $item = "user";
                  $value = $_POST["ingUser"];
 
-                 $response = UsersModel::MdlShowUsers($table, $item, $value);
+                 $response = UsersModel::mdlShowUsers($table, $item, $value);
 
                  var_dump($response);
 
