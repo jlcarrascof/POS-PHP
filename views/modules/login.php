@@ -1,3 +1,5 @@
+<div id="back"></div>
+
 <div class="login-box">
 
   <div class="login-logo">
