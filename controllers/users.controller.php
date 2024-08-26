@@ -11,14 +11,18 @@ class UsersController {
             if (preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingUser"]) &&
                 preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])) {
 
-                 $table = "users";
+                $table = "users";
 
-                 $item = "user";
-                 $value = $_POST["ingUser"];
+                $item = "user";
+                $value = $_POST["ingUser"];
 
-                 $response = UsersModel::mdlShowUsers($table, $item, $value);
+                $response = UsersModel::mdlShowUsers($table, $item, $value);
 
-                 var_dump($response);
+                if ($response["user"] == $_POST["ingUser"] && $response["password"] == $_POST["ingPassword"]) {
+                    echo '<br><div class="alert alert-success">Login successful</div>';
+                } else {
+                    echo '<br><div class="alert alert-danger">Incorrect username or password</div>';
+                }
 
             }
 
