@@ -27,6 +27,12 @@
 
         </div>
       </div>
+
+      <?php
+        $login = new UsersController();
+        $login -> ctrLoginUser();
+      ?>
+
     </form>
   </div>
 </div>
