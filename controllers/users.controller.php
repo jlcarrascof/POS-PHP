@@ -19,7 +19,11 @@ class UsersController {
                 $response = UsersModel::mdlShowUsers($table, $item, $value);
 
                 if ($response["user"] == $_POST["ingUser"] && $response["password"] == $_POST["ingPassword"]) {
-                    echo '<br><div class="alert alert-success">Login successful</div>';
+                    $_SESSION["sessionInit"] = "ok";
+                    echo '<script>
+                            window.location = "home";
+                          </script>';
+
                 } else {
                     echo '<br><div class="alert alert-danger">Incorrect username or password</div>';
                 }
