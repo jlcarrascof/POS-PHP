@@ -83,7 +83,8 @@
             $_GET["route"] == "customers" ||
             $_GET["route"] == "sales" ||
             $_GET["route"] == "sales-create" ||
-            $_GET["route"] == "reports") {
+            $_GET["route"] == "reports" ||
+            $_GET["route"] == "exit") {
 
           include "modules/".$_GET["route"].".php";
 
