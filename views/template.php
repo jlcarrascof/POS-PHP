@@ -1,3 +1,9 @@
+<?php
+
+  session_start();
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,10 +16,12 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
+  <link rel="icon" href="views/img/template/icono-negro.png">
+
   <!-- CSS Plugins -->
 
   <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="views/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="views/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="views/bower_components/font-awesome/css/font-awesome.min.css">
@@ -47,28 +55,63 @@
 </head>
 
 <!-- Document body -->
-<body class="hold-transition skin-blue sidebar-collapse sidebar-mini">
+<body class="hold-transition skin-blue sidebar-collapse sidebar-mini login-page">
 
 <!-- Site wrapper -->
-<div class="wrapper">
+
 
   <?php
-    // Header
-    include "modules/header.php";
 
-    // Menu
-    include "modules/menu.php";
+    if (isset($_SESSION["sessionInit"]) && $_SESSION["sessionInit"] == "ok") {
 
-    // Content
-    include "modules/content.php";
+      echo '<div class="wrapper">';
 
-    // Footer
-    include "modules/footer.php";
+      // Header
+      include "modules/header.php";
+
+      // Menu
+      include "modules/menu.php";
+
+      // Home
+
+      if (isset($_GET["route"])) {
+
+        if ($_GET["route"] == "home" ||
+            $_GET["route"] == "products" ||
+            $_GET["route"] == "categories" ||
+            $_GET["route"] == "users" ||
+            $_GET["route"] == "customers" ||
+            $_GET["route"] == "sales" ||
+            $_GET["route"] == "sales-create" ||
+            $_GET["route"] == "reports" ||
+            $_GET["route"] == "exit") {
+
+          include "modules/".$_GET["route"].".php";
+
+        } else {
+
+          include "modules/404.php";
+
+        }
+
+      } else {
+
+        include "modules/home.php";
+
+      }
+
+      // Footer
+      include "modules/footer.php";
+
+      echo '</div>';
+
+    } else {
+
+      include "modules/login.php";
+
+    }
 
   ?>
-
-</div>
-<!-- ./wrapper -->
 
 <script src="views/js/template.js"></script>
 

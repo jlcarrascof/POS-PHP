@@ -1,6 +1,6 @@
 <header class="main-header">
 
-    <a href="" class="logo">
+    <a href="home" class="logo">
 
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">
@@ -45,7 +45,7 @@
                     <ul class="dropdown-menu">
                         <li class="user-body">
                             <div class="pull-right">
-                                <a href="" class="btn btn-default btn-flat">Sign out</a>
+                                <a href="exit" class="btn btn-default btn-flat">Sign out</a>
                             </div>
                         </li>
                     </ul>
