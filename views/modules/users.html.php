@@ -60,9 +60,9 @@
             <td>Admin User</td>
             <td>admin</td>
             <td><img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-            <td>Administrador</td>
-            <td><button class="btn btn-success btn-xs">Activado</button></td>
-            <td>2017-12-11 12:05:32</td>
+            <td>Admin</td>
+            <td><button class="btn btn-success btn-xs">Active</button></td>
+            <td>2020-12-11 12:05:32</td>
             <td>
 
               <div class="btn-group">
