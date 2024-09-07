@@ -4,15 +4,15 @@
 
     <h1>
 
-      Admin users
+      Admin category
 
     </h1>
 
     <ol class="breadcrumb">
 
-      <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
+      <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
 
-      <li class="active">Admin Users</li>
+      <li class="active">Admin category</li>
 
     </ol>
 
@@ -24,9 +24,9 @@
 
       <div class="box-header with-border">
 
-        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarUsuario">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAddCategory">
 
-          Add User
+          Add Category
 
         </button>
 
@@ -41,12 +41,7 @@
          <tr>
 
            <th style="width:10px">#</th>
-           <th>Name</th>
-           <th>User</th>
-           <th>Photo</th>
-           <th>Profile</th>
-           <th>Status</th>
-           <th>Last login</th>
+           <th>Category</th>
            <th>Actions</th>
 
          </tr>
@@ -57,12 +52,7 @@
 
           <tr>
             <td>1</td>
-            <td>Admin User</td>
-            <td>admin</td>
-            <td><img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-            <td>Admin</td>
-            <td><button class="btn btn-success btn-xs">Active</button></td>
-            <td>2020-12-11 12:05:32</td>
+            <td>Test record</td>
             <td>
 
               <div class="btn-group">
