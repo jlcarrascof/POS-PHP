@@ -52,7 +52,21 @@
 
           <tr>
             <td>1</td>
-            <td>Test record</td>
+            <td>Test record #1</td>
+            <td>
+
+              <div class="btn-group">
+
+                <button class="btn btn-warning"><i class="fa fa-pencil"></i></button>
+
+                <button class="btn btn-danger"><i class="fa fa-times"></i></button>
+
+              </div>
+
+            </td>
+            <tr>
+            <td>2</td>
+            <td>Test record #2</td>
             <td>
 
               <div class="btn-group">
@@ -67,14 +81,9 @@
 
           </tr>
 
-           <tr>
-            <td>1</td>
-            <td>Usuario Administrador</td>
-            <td>admin</td>
-            <td><img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-            <td>Administrador</td>
-            <td><button class="btn btn-success btn-xs">Activado</button></td>
-            <td>2017-12-11 12:05:32</td>
+          <tr>
+            <td>3</td>
+            <td>Test record #3</td>
             <td>
 
               <div class="btn-group">
@@ -86,30 +95,6 @@
               </div>
 
             </td>
-
-          </tr>
-
-           <tr>
-            <td>1</td>
-            <td>Usuario Administrador</td>
-            <td>admin</td>
-            <td><img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail" width="40px"></td>
-            <td>Administrador</td>
-            <td><button class="btn btn-danger btn-xs">Desactivado</button></td>
-            <td>2017-12-11 12:05:32</td>
-            <td>
-
-              <div class="btn-group">
-
-                <button class="btn btn-warning"><i class="fa fa-pencil"></i></button>
-
-                <button class="btn btn-danger"><i class="fa fa-times"></i></button>
-
-              </div>
-
-            </td>
-
-          </tr>
 
         </tbody>
 
