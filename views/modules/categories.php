@@ -146,7 +146,7 @@ MODAL ADD CATEGORY
 
               <div class="input-group">
 
-                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <span class="input-group-addon"><i class="fa fa-th"></i></span>
 
                 <input type="text" class="form-control input-lg" name="newCategory" placeholder="Input category" required>
 
@@ -164,7 +164,7 @@ MODAL ADD CATEGORY
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
+          <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Exit</button>
 
           <button type="submit" class="btn btn-primary">Save Category</button>
 
