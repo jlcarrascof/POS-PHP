@@ -20,9 +20,13 @@
           </button>
         </div>
         <div class="box-body">
-          Start creating your amazing application!
+          <table class="table table-bordered table-striped">
+            <thead>
+
+            </thead>
+          </table>
         </div>
-        <!-- /.box-body -->
+
         <div class="box-footer">
           Footer
         </div>
