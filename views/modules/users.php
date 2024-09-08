@@ -91,14 +91,7 @@
           </table>
         </div>
 
-        <div class="box-footer">
-          Footer
-        </div>
-        <!-- /.box-footer-->
       </div>
-      <!-- /.box -->
 
     </section>
-    <!-- /.content -->
   </div>
-<!-- /.content-wrapper -->
