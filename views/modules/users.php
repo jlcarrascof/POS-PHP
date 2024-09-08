@@ -22,7 +22,16 @@
         <div class="box-body">
           <table class="table table-bordered table-striped">
             <thead>
-
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>User</th>
+                <th>Picture</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Last Login</th>
+                <th>Actions</th>
+              </tr>
             </thead>
           </table>
         </div>
