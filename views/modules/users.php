@@ -33,6 +33,26 @@
                 <th>Actions</th>
               </tr>
             </thead>
+
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Admin User</td>
+                <td>admin</td>
+                <td><img src="views/img/users/default/anonymous.png" class="img-thumbnail" width="40px"></td>
+                <td>Admin</td>
+                <td><button class="btn btn-success btn-xs">Active</button></td>
+                <td>2020-01-01 12:00:00</td>
+
+                <td>
+                  <div class="btn-group">
+                    <button class="btn btn-warning"><i class="fa fa-pencil"></i></button>
+                    <button class="btn btn-danger"><i class="fa fa-times"></i></button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+
           </table>
         </div>
 
